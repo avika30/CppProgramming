@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		87DDB3DE2D8AF8BE00EEA29B /* reverse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 87DDB3DB2D8AF6A500EEA29B /* reverse.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		87DDB3C72D89A55F00EEA29B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -20,15 +24,10 @@
 
 /* Begin PBXFileReference section */
 		87DDB3C92D89A55F00EEA29B /* CppProgramming */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CppProgramming; sourceTree = BUILT_PRODUCTS_DIR; };
+		87DDB3D32D89A58900EEA29B /* demo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = demo.cpp; sourceTree = "<group>"; };
+		87DDB3D92D8AF42F00EEA29B /* count.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = count.cpp; sourceTree = "<group>"; };
+		87DDB3DB2D8AF6A500EEA29B /* reverse.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = reverse.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		87DDB3CB2D89A55F00EEA29B /* CppProgramming */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CppProgramming;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		87DDB3C62D89A55F00EEA29B /* Frameworks */ = {
@@ -44,7 +43,9 @@
 		87DDB3C02D89A55F00EEA29B = {
 			isa = PBXGroup;
 			children = (
-				87DDB3CB2D89A55F00EEA29B /* CppProgramming */,
+				87DDB3D32D89A58900EEA29B /* demo.cpp */,
+				87DDB3D92D8AF42F00EEA29B /* count.cpp */,
+				87DDB3DB2D8AF6A500EEA29B /* reverse.cpp */,
 				87DDB3CA2D89A55F00EEA29B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,9 +72,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				87DDB3CB2D89A55F00EEA29B /* CppProgramming */,
 			);
 			name = CppProgramming;
 			packageProductDependencies = (
@@ -120,6 +118,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87DDB3DE2D8AF8BE00EEA29B /* reverse.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
